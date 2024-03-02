@@ -171,6 +171,9 @@
     border-radius: 0 0 0 10px;
 }
 
+.menu-dropDown > li #end-end{
+    display: none;
+}
 
 /* IMAGEM PRINCIPAL */
 .content {

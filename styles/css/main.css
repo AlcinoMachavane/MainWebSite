@@ -8,7 +8,7 @@
 .main .about {
     max-width: 100%;
     margin: 0 auto;
-    padding: 100px 0;
+    /*padding: 100px 0;*/
     text-align: center;
     /*box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.13);*/
 }
@@ -353,9 +353,9 @@
 .why-us {
     width: 100%;
     margin: 0 auto;
-    margin-bottom: 50px;
+    /*margin-bottom: 50px;*/
     /*box-shadow: 5px 5px 10px rgba(22, 22, 22, 0.13);*/
-    padding-bottom: 20px;
+    /*padding-bottom: 20px;*/
 }
 
 .why-us .why-us-content {
@@ -1013,6 +1013,10 @@
     justify-content: center;
     align-items: center;
     list-style: square !important;
+}
+
+.prices .prices-benefit ul li > a{
+    color: #161616;
 }
 
 .prices .prices-benefit ul li .fa-circle-info {

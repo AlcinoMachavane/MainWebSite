@@ -625,14 +625,39 @@
     flex-basis: 100%;
     margin: auto;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; background-color: whitesmoke;
 }
 
+
 .logoGemic{height: 1000px}
-.emprestimo{height: 900px}
-.financeiro{height: 700px}
-.relatorio{height: 800px}
+.emprestimo{height: 800px}
+.financeiro{height: 500px}
+.relatorio{height: 700px}
 .quemUsa{height: 500px}
+
+.whatIsGemic{height: 1000px}
+.loan{height: 800px}
+.financial{height: 500px}
+.reports{height: 700px}
+.whoUses{height: 500px}
+
+/*///////////////gemicFuntions////////////*/
+
+.dashboard{height: 600px;}
+.emprestimoFunctions{height: 700px}
+.financeiroFunctions{height: 400px}
+.relatorioFunctions{height: 800px}
+.quemUsaFunctions{height: 600px}
+.diarioFunctions{height: 400px}
+.caixaFunctions{height: 500px}
+
+.whatIsGemicFunctions{height: 600px}
+.loanFunctions{height: 700px}
+.financialFunctions{height: 400px}
+.reportsFunctions{height: 800px}
+.whoUsesFunctions{height: 600px}
+.dailyFunctions{height: 400px}
+.cashFunctions{height: 500px}
 
 .div-product-section{
     display: flex;
@@ -648,14 +673,14 @@
 
 .product-section .article-img img {
     /*background-image: url("../../images/logoGemic.png");*/
-    border: 2px solid whitesmoke;
-    background-position: center center;
-    background-size: cover;
+    /*border: 2px solid whitesmoke;*/
+    /*background-position: center center;*/
+    /*background-size: cover;*/
     max-height: 350px;
     max-width: 650px;
     min-height: 350px;
     min-width: 650px;
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;*/
     border-radius: 10px;
     display: flex;
     flex-basis: 100%;
@@ -663,6 +688,16 @@
 
     position: sticky;
     top: 60px;
+}
+
+
+.logoGemic img{
+    /*display: none!important;*/
+
+    max-height: 350px!important;
+    max-width: 350px!important;
+    min-height: 350px!important;
+    min-width: 350px!important;
 }
 
 .product-section .article-img img:hover {
@@ -706,13 +741,6 @@
     display: flex;
     flex-basis: 100%;
 }
-
-
-.whatIsGemic{height: 1000px;}
-.loan{height: 900px;}
-.financial{height: 700px;}
-.reports{height: 800px;}
-.whoUses{height: 500px;}
 
 .product-section .product-article-txt .topics .separater .topics-paragraph {
     display: block;

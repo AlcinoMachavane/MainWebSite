@@ -1,4 +1,4 @@
-@charset "UTF_8";
+@charset "UTF-8";
 
 
 /* 1050px */
@@ -727,11 +727,11 @@
 
 /* 750px */
 @media (max-width: 750px) {
-    .article-img-vendas-vp{
+    .article-img-vendas-vp {
         display: none;
     }
 
-    .product-article-vendas-txt-vp{
+    .product-article-vendas-txt-vp {
         flex-basis: 100%;
     }
 
@@ -752,23 +752,23 @@
 
 /* 450px */
 @media (max-width: 450px) {
-    .product-article-vendas-txt-vp .topics-VP .separater-vp img{
+    .product-article-vendas-txt-vp .topics-VP .separater-vp img {
         width: 300px;
         height: 300px;
     }
 
-    .product-article-vendas-txt-vp h1{
+    .product-article-vendas-txt-vp h1 {
         font-size: 40pt;
     }
 }
 
 /* 350px */
 @media (max-width: 350px) {
-    .product-article-vendas-txt-vp h1{
+    .product-article-vendas-txt-vp h1 {
         font-size: 30pt;
     }
 
-    .product-article-vendas-txt-vp .topics-VP h2{
+    .product-article-vendas-txt-vp .topics-VP h2 {
         font-size: 18pt;
     }
 }
@@ -779,36 +779,93 @@
 /* 1100px */
 @media (max-width: 1100px) {
 
-    .product-section .product-article-txt .topics{
+    .div-product-section {
+        flex-basis: 50%;
     }
 
-    .product-section .product-article-txt .topics h2{
+    .product-section .div-product-article-txt {
+        flex-basis: 50%;
+    }
+
+    .product-section .article-img img {
+        max-height: 250px;
+        max-width: 450px;
+        min-height: 250px;
+        min-width: 450px;
+        flex-basis: 100%;
+    }
+
+    .product-section .product-article-txt .topics {
+    }
+
+    .product-section .product-article-txt .topics h2 {
         padding-left: 20px;
     }
 
-    .product-section .product-article-txt .topics .separater{
+    .product-section .product-article-txt .topics .separater {
         padding: 0 20px;
         flex-wrap: wrap;
     }
 
-    .product-section .product-article-txt .topics .separater img{
+    .product-section .product-article-txt .topics .separater img {
         padding: 0 20px;
         flex-basis: 100%;
     }
 
-    .product-section .product-article-txt .topics .separater .topics-paragraph{
+    .product-section .product-article-txt .topics .separater .topics-paragraph {
         margin-top: 40px;
         flex-basis: 100%;
     }
 }
 
-/* 750px */
-@media (max-width: 750px) {
-    .product-section .article-img{
+/* 990px */
+@media (max-width: 990px) {
+
+    /*.div-product-section {*/
+    /*    flex-basis: 50%;*/
+    /*}*/
+
+    /*.product-section .div-product-article-txt {*/
+    /*    flex-basis: 50%;*/
+    /*}*/
+
+    .product-section .article-img img {
+        max-height: 150px;
+        max-width: 300px;
+        min-height: 150px;
+        min-width: 300px;
+        flex-basis: 100%;
+    }
+}
+
+/* 790px */
+@media (max-width: 790px) {
+    .div-product-section {
         display: none;
     }
 
-    .product-section .product-article-txt{
+    .product-section{
+        margin: 0 2px;
+    }
+
+    .product-section .div-product-article-txt {
+        flex-basis: 100%;
+    }
+
+    .whatIsGemic,
+    .loan,
+    .financial,
+    .reports,
+    .whoUses{height: auto;}
+}
+
+/* 750px */
+@media (max-width: 750px) {
+    .product-section .article-img {
+        display: none;
+    }
+
+    .product-section .product-article-txt {
         flex-basis: 100%;
     }
 
@@ -820,11 +877,11 @@
 
 /* 750px */
 @media (max-width: 750px) {
-    .article-img-vendas-vp{
+    .article-img-vendas-vp {
         display: none;
     }
 
-    .product-article-vendas-txt-vp{
+    .product-article-vendas-txt-vp {
         flex-basis: 100%;
     }
 
@@ -845,27 +902,26 @@
 
 /* 450px */
 @media (max-width: 450px) {
-    .product-article-vendas-txt-vp .topics-VP .separater-vp img{
+    .product-article-vendas-txt-vp .topics-VP .separater-vp img {
         width: 300px;
         height: 300px;
     }
 
-    .product-article-vendas-txt-vp h1{
+    .product-article-vendas-txt-vp h1 {
         font-size: 40pt;
     }
 }
 
 /* 350px */
 @media (max-width: 350px) {
-    .product-article-vendas-txt-vp h1{
+    .product-article-vendas-txt-vp h1 {
         font-size: 30pt;
     }
 
-    .product-article-vendas-txt-vp .topics-VP h2{
+    .product-article-vendas-txt-vp .topics-VP h2 {
         font-size: 18pt;
     }
 }
-
 
 
 /*//////////////////////////////////// Precos /////////////////////////////////////////////////*/
@@ -873,22 +929,22 @@
 
 /* 1100px */
 @media (max-width: 1100px) {
-    .prices .prices-plan{
+    .prices .prices-plan {
         flex-basis: calc(33.3333333% - 50px);
         margin-top: 80px;
     }
 }
 
 /* 800px */
-@media (max-width: 800px){
-    .prices .prices-plan{
+@media (max-width: 800px) {
+    .prices .prices-plan {
         flex-basis: calc(50% - 50px);
     }
 }
 
 /* 600px */
-@media (max-width: 600px){
-    .prices .prices-plan{
+@media (max-width: 600px) {
+    .prices .prices-plan {
         flex-basis: calc(100% - 50px);
     }
 }
